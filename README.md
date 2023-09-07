@@ -32,9 +32,9 @@ python main.py --clean-torch --storage file --batch-size 64 \
 
 ```bash
 cd <path-to>/geo-cgnn/
-cp $DATASET_PATH/config_onehot.json ./example/data # copy config file into dataset path
+cp $DATASET_PATH/config_onehot.json ./data/example # copy config file into dataset path
 python predict.py --modelpath experiments/model_best.pth.tar \
-  --workers 10 --print-freq 1 ./example/data # run inference
+  --workers 10 --print-freq 1 ./data/example # run inference
 ```
 
 Expected output:
@@ -129,10 +129,10 @@ python main.py \
  --storage file --batch-size 32  --lr 0.001 --optim SGD \
  --train-ratio 0.7 --val-ratio 0.2 --test-ratio 0.1 \
  --workers 20 --epochs 100 --print-freq 1 \
- /gporq2/scratch_0/usr/aiidausr/machine_learning/data/mp/ 
+ <path> 
 ~~~
 
-> **NOTE:**  A computer with GPU support is recommended.
+> **NOTE:**  A computer with GPU support is required.
 
 
 ## How to test
@@ -213,7 +213,7 @@ The CSV output file has three columns which consist of the CIF ID, the real mate
 
 # Materials Project Data Extractor
 
-The `ml/data-extractor/mp_data.py` python script extracts data from Materials Project Database (MP, [link](https://next-gen.materialsproject.org/))
+The `data/mp_data.py` python script extracts data from Materials Project Database (MP, [link](https://next-gen.materialsproject.org/))
 and it saves the data as cif files in the indicated path. 
 
 The mp_data.py script has following command line interface:
@@ -319,3 +319,20 @@ The most interesting **transaction metals** are vanadium (V) and titanium (Ti) w
 
 ![fig4](https://github.com/ClaudioR3/geo-cgnn/assets/18485450/4c0814c3-5811-461c-9786-e9952bad7651)
 
+# Reference to tutorial
+
+This repository is based on:
+
+[https://github.com/heartexlabs/label-studio/blob/master/docs/source/tutorials/object-detector.md](https://github.com/Tinystormjojo/geo-CGNN)
+
+# Citation
+
+```
+@misc{li2022dit,
+    title={A geometric-information-enhanced crystal graph network for predicting properties of materials},
+    author={Cheng, J., Zhang, C. & Dong, L. },
+    year={2021},
+    archivePrefix={www.nature.com},
+    doi=https://doi.org/10.1038/s43246-021-00194-3
+}
+```
