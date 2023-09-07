@@ -319,16 +319,14 @@ The most interesting **transaction metals** are vanadium (V) and titanium (Ti) w
 
 ![fig4](https://github.com/ClaudioR3/geo-cgnn/assets/18485450/4c0814c3-5811-461c-9786-e9952bad7651)
 
-# Reference to tutorial
+# Reference
 
-This repository is based on:
-
-[https://github.com/heartexlabs/label-studio/blob/master/docs/source/tutorials/object-detector.md](https://github.com/Tinystormjojo/geo-CGNN)
+This repository is based on: https://github.com/Tinystormjojo/geo-CGNN
 
 # Citation
 
 ```
-@misc{li2022dit,
+@misc{cheng21geo-cgnn,
     title={A geometric-information-enhanced crystal graph network for predicting properties of materials},
     author={Cheng, J., Zhang, C. & Dong, L. },
     year={2021},
