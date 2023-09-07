@@ -1,0 +1,6 @@
+{
+    "elements": {
+        "$nin" :
+            ["He", "Ne", "Ar", "Kr", "Xe"]
+                }
+}
