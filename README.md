@@ -226,3 +226,13 @@ This repository is based on: https://github.com/Tinystormjojo/geo-CGNN
     doi=https://doi.org/10.1038/s43246-021-00194-3
 }
 ```
+
+```
+@misc{Ronchetti22,
+    title={Machine learning techniques for data analysis in materials science},
+    author={Ronchetti C., Puccini M., Ferlito S., Giusepponi S., Palombi F., Buonocore F., Celino M.},
+    year={2022},
+    archivePrefix={https://ieeexplore.ieee.org/},
+    doi=10.23919/AEIT56783.2022.9951839
+}
+```
