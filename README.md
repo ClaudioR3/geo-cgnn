@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/688488915.svg)](https://zenodo.org/badge/latestdoi/688488915)
+
+
 The key of the artificial intelligence is the data. Without it we are lost. 
 When it's missing, we can consider external database. 
 The worldwide crystal structure databases are AFLOW, COD, TCOD, Materials Project (MP), Materials Cloud NOMAD, odbx, Open Materials Database (omdb), and OQMD. 
